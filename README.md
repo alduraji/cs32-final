@@ -30,7 +30,7 @@ I will aim to incorporate both within the website I create, but for now I may pr
 
 # Update
 
-![image](misc/alpha.png)
+![](media/alpha.png)
 
 ## Pill and Assignment Aid 
 
@@ -39,7 +39,7 @@ Pill and Assignment Aid is a CLI app I developed as a framework to my final proj
 
 ### Current Features:
 
-![](misc/one.png) 
+![](media/one.png) 
 
 * Display all the pills with their information and whether they have been taken or not.
 * Add a pill with its name, dosage, and time.

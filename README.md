@@ -1,6 +1,45 @@
 # cs32-final
-I have chosen to build a tool for **managing supplements+emails** within my **own personal website!** (so two projects in one and I actually am very excited (:).
+## Final Update. 2023-05-02
 
+![](media/homepage.png)
+### Functions
+1. clear_form: Clears the form input fields.
+2. enter_data: As a user, adds the input data to the SQLite database.
+3. show_schedule: Retrieves and displays the supplement intake schedule.
+4. refresh_schedule_view: Refreshes the supplement schedule view.
+5. switch_frame: Switches the displayed frame in the tkinter UI.
+6. update_schedule: Updates the app's schedule daily.
+7. show_database: Queries and displays the SQLite database.
+8. on_select: Stores the selected supplement in the database viewer.
+9. show_edit_frame: Opens a new tkinter Toplevel window for editing a selected supplement entry.
+10. edit_selected_entry: Edits an SQLite database entry for a supplement.
+11. remove_entry: Removes a supplement from the SQLite database.
+12. apply_settings: Applies and updates the intake notification times.
+13. send_notifications: Sends notifications based on the notification times set.
+
+![](media/input.png)
+
+### Libraries/Modules Used
+* tkinter: GUI toolkit for Python
+* sqlite3: SQLite Database handling
+* random: Shuffle and pick supplements for the schedule
+* time: Time-based functions and threading
+* threading: Handles updating the app's schedule and notifications
+* datetime: Functions for parsing and handling date and time
+* pync: Handles desktop notifications
+
+## Other Important Points
+* 3 intake times: Morning, Afternoon, and Evening
+* SQLite Database Storage: Stores the supplement data with mandatory daily statuses.
+* Notifications: Notifications are sent at user-defined times reminding them to take their supplements.
+* UI: Switch between Home Frame, Data Entry Frame, Database Viewer Frame, and Settings Frame
+* Multiple Threads: App handles daily schedule updates and notifications using separate threads.
+
+**This is an easy-to-use supplement management system that stores and organizes the user's supplement schedule, making it less likely the user will forget their intake.**
+
+---
+
+## Outdated README.md
 ## The subtasks can be decomposed as follows:
 1. Design different week cycles with different supplements.
 2. Keep track of the supplements used and remaining stock.
@@ -28,7 +67,7 @@ I will aim to incorporate both within the website I create, but for now I may pr
 
 ---
 
-# Update
+# Update #2
 
 ![](media/alpha.png)
 
